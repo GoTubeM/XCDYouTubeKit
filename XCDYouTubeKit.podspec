@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.osx.frameworks         = "JavaScriptCore"
   s.tvos.frameworks        = "JavaScriptCore"
   s.requires_arc           = true
+  s.dependency  "AFNetworking"
 end
